@@ -1,0 +1,100 @@
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon {
+  background-color: red !important;
+  color: white !important;
+  border-color: red !important;
+}
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #fff !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-icon {
+  background-color: red !important;
+
+  border-color: red !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: red !important;
+
+  height: 4px;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-icon
+  .ant-steps-icon {
+  position: relative;
+
+  top: -2.5px;
+
+  color: white !important;
+
+  line-height: 1;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item-wait
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-icon {
+  border-color: red !important;
+
+  background-color: red !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-icon
+  .ant-steps-icon {
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-title,
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-subtitle,
+:where(.css-dev-only-do-not-override-acm2ia).ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-description {
+  color: black !important;
+}
+#cogs-table:where(.css-dev-only-do-not-override-acm2ia).ant-tabs
+  > .ant-tabs-nav,
+:where(.css-dev-only-do-not-override-acm2ia).ant-tabs > div > .ant-tabs-nav {
+  visibility: hidden;
+}
+:where(.css-dev-only-do-not-override-acm2ia).ant-btn-default:not(
+    :disabled
+  ):hover {
+  color: white !important;
+  border-color: red !important;
+}
